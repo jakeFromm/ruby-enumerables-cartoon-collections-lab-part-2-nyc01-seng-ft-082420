@@ -24,6 +24,6 @@ def find_valid_calls(planeteer_calls)
   if (planeteer_calls & valid_calls) != []
     matching = (planeteer_calls & valid_calls)
   end
-  matching
+  matching[0]
   
 end
