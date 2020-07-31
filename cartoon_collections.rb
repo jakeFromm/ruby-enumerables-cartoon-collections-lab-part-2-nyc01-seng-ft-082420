@@ -25,7 +25,7 @@ def find_valid_calls(planeteer_calls)
     matching = (planeteer_calls & valid_calls)
     matching
   else 
-    matching
+    nil
   end
   
   
