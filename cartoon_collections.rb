@@ -23,7 +23,10 @@ def find_valid_calls(planeteer_calls)
   matching = nil 
   if (planeteer_calls & valid_calls) != []
     matching = (planeteer_calls & valid_calls)
+    matching
+  else 
+    matching
   end
-  matching[0]
+  
   
 end
